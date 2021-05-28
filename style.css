@@ -1,0 +1,301 @@
+.clearfix:after {
+
+    visibility: hidden;
+
+    display: block;
+
+    font-size: 0;
+
+    content: " ";
+
+    clear: both;
+
+    height: 0;
+
+    }
+
+.clearfix { display: inline-block; }
+
+/* start commented backslash hack \*/
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+/* close commented backslash hack */
+
+
+
+body {
+
+   font-family: "Arial";
+
+   background-color: #CCC;
+
+}
+
+
+
+#container {
+
+   max-width: 1200px;
+
+   margin-left: auto;
+
+   margin-right: auto;
+
+   background-color: #FFF;
+
+}
+
+
+
+.btn {
+
+   display: inline-block;
+
+   border-radius: 30px;
+
+   padding: 20px 40px;
+
+   font-weight: bold;
+
+   text-decoration: none;
+
+   color: white;
+
+}
+
+
+
+.btn-attention {
+
+   background: #DF1763;    
+
+}
+
+
+
+
+
+header .login {
+
+   color: #DF1763;
+
+   border: 2px solid #DF1763;
+
+}
+
+
+
+header #logo {
+
+   display: inline-block;
+
+   padding: 30px;
+
+}
+
+
+
+header nav {
+
+   float: right;
+
+   padding: 20px 10px;
+
+}
+
+
+
+header nav ul {
+
+   list-style-type: none;
+
+   margin: 0;
+
+   padding: 0;
+
+}
+
+
+
+header nav ul li {
+
+   float: left;
+
+   margin: 0 10px;
+
+}
+
+
+
+
+
+#jumbotron {
+
+   background-image: url('dh.jfif');
+
+   background-repeat: no-repeat;
+
+   background-position: center top;
+
+   min-height: 600px;
+
+   position: relative;
+
+   background-size: cover;
+
+}
+
+
+
+#jumbotron .items {
+
+   color: white;
+
+   position: absolute;
+
+   top: 260px;
+
+   left: 100px;
+
+   max-width: 450px;
+
+}
+
+
+
+#jumbotron h2 {
+
+   font-size: 2.5em
+
+}
+
+
+
+
+
+#plans {
+
+   padding: 50px 0;
+
+   text-align: center;
+
+}
+
+
+
+#plans > h3 {
+
+   color: #2B95FD;
+
+   font-size: 2.2em;
+
+   margin: 0;
+
+   padding: 0;
+
+}
+
+
+
+#plans p {
+
+   color: #777;
+
+   margin: 30px 0 60px 0;
+
+}
+
+
+
+#plans .btn {
+
+   border: 2px solid white;
+
+}
+
+
+
+#plans > ul {
+
+   padding: 0;
+
+   margin: 0 auto;
+
+   list-style-type: none;
+
+   width: 840px;
+
+}
+
+
+
+#plans > ul > li {
+
+   width: 210px;
+
+   float: left;
+
+   margin: 0 15px;
+
+   padding: 20px;
+
+   background: #2B95FD;
+
+   color: white;
+
+   border-radius: 10px;
+
+}
+
+
+
+#plans > ul > li:nth-child(2) {
+
+   background: #4E65EC;
+
+}
+
+
+
+#plans > ul > li:nth-child(3) {
+
+   background: #7A30D3;
+
+}
+
+
+
+#plans ul ul {
+
+   padding: 0;
+
+   margin: 30px 0;
+
+   list-style-type: none;
+
+}
+
+
+
+#plans li h3 {
+
+   margin: 0 0 0 0;
+
+   font-size: 2em;
+
+}
+
+
+
+#plans li h4 {
+
+   margin: 0 0 10px 0;
+
+   font-size: 1.5em;
+
+   font-weight: normal;
+
+}
